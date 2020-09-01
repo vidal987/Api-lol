@@ -12,6 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes />
       </BrowserRouter>
+
       <GlobalStyle></GlobalStyle>
     </>
   );
