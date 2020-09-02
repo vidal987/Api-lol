@@ -25,7 +25,7 @@ export const Container = styled.div``;
 
 export const Title = styled.h1`
   font-size: 48px;
-  color: #3a3a3a;
+  color: #e43f5a;
   max-width: 450px;
   line-height: 50px;
 
@@ -51,12 +51,12 @@ export const Form = styled.form`
   button {
     padding: 10px 20px;
     border: 0;
-    background: #b8dbd9;
+    background: #e43f5a;
 
     font-weight: bold;
 
     &:hover {
-      background: ${darken(0.2, "#b8dbd9")};
+      background: ${darken(0.2, "#e43f5a")};
       transition: 400ms;
     }
   }
@@ -80,6 +80,8 @@ export const Card = styled.div`
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.75);
   border-radius: 8px;
 
+  background: #e43f5a;  
+
   cursor: pointer;
 
   transition: transform 0.3s;
@@ -90,7 +92,7 @@ export const Card = styled.div`
 `;
 
 export const ChampionBanner = styled.img`
-  z-index: 3;
+  z-index: 1;
 
   border-radius: 8px 8px 0 0;
 

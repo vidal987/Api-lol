@@ -33,7 +33,7 @@ const Dashboard: React.FC = () => {
 
   return (
     <>
-      <Styled.Title>Lista de Campeões do Lolzinho</Styled.Title>
+      <Styled.Title>League Of Legends</Styled.Title>
       <Styled.Form>
         <input
           type="text"
