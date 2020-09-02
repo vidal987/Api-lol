@@ -41,6 +41,7 @@ const Dashboard: React.FC = () => {
         />
         <button type="submit">Pesquisar</button>
       </Styled.Form>
+      
       <Styled.Cards>
         {champions.map((champion) => (
           <Styled.Card>
