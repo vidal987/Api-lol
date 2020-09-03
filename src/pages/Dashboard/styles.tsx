@@ -30,6 +30,7 @@ export const Title = styled.h1`
   line-height: 50px;
 
   margin-top: 80px;
+  
 `;
 
 export const Form = styled.form`
@@ -46,6 +47,7 @@ export const Form = styled.form`
     ::placeholder {
       color: #000;
     }
+    
   }
 
   button {
@@ -67,7 +69,20 @@ export const Cards = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
+
+  @media(max-width: 920px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  @media(max-width: 750px) {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-content:center;
+    align-items: center;
+  }
 `;
+
 
 export const Card = styled.div`
   position: relative;
@@ -80,7 +95,7 @@ export const Card = styled.div`
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.75);
   border-radius: 8px;
 
-  background: #e43f5a;  
+  background: #d3d3d3;  
 
   cursor: pointer;
 
@@ -89,6 +104,12 @@ export const Card = styled.div`
   &:hover {
     transform: translateY(-15px);
   }
+
+  @media(max-width: 750px) {
+
+  justify-content: center;
+  }
+  
 `;
 
 export const ChampionBanner = styled.img`
@@ -99,6 +120,7 @@ export const ChampionBanner = styled.img`
   top: -10px;
   max-width: 300px;
   opacity: 0.8;
+
 `;
 
 export const Avatar = styled.img`
